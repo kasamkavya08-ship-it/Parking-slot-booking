@@ -1,0 +1,6 @@
+{
+  "name": "ParkEase - Real-Time Parking Slot Booking & Management",
+  "description": "Full-stack parking slot booking system featuring live slot availability, cinema-style slot selection, 5-minute reservation locks, automated pricing, QR pass generation, and administrative check-in/out.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

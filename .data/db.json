@@ -1,0 +1,724 @@
+{
+  "users": [
+    {
+      "id": "usr_kavya_01",
+      "name": "Kavya Kasam",
+      "email": "kasamkavya14@gmail.com",
+      "phone": "+91 98765 43210",
+      "role": "user",
+      "created_at": "2026-10-05T06:24:51.539Z"
+    },
+    {
+      "id": "usr_vikram_admin",
+      "name": "Vikram Reddy",
+      "email": "vikram.reddy@parkease.io",
+      "phone": "+91 91234 56789",
+      "role": "admin",
+      "created_at": "2026-09-30T06:24:51.539Z"
+    },
+    {
+      "id": "usr_rahul_owner",
+      "name": "Rahul Verma",
+      "email": "rahul.verma@parkease.io",
+      "phone": "+91 99887 76655",
+      "role": "owner",
+      "created_at": "2026-09-28T06:24:51.539Z"
+    }
+  ],
+  "parking_lots": [
+    {
+      "id": "lot_hitech_01",
+      "name": "Cyber Towers Tech & Transit Hub",
+      "address": "Plot 4, Cyber Towers Circle, Hitech City, Hyderabad, Telangana 500081",
+      "lat": 17.4504,
+      "lng": 78.3808,
+      "total_slots": 30,
+      "price_per_hour": 40,
+      "image_url": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=1200&q=80",
+      "created_at": "2026-09-10T06:24:51.539Z"
+    },
+    {
+      "id": "lot_gachibowli_02",
+      "name": "Financial District Smart Park Deck",
+      "address": "ISB Road, Near WaveRock, Gachibowli, Hyderabad, Telangana 500032",
+      "lat": 17.4401,
+      "lng": 78.3489,
+      "total_slots": 30,
+      "price_per_hour": 50,
+      "image_url": "https://images.unsplash.com/photo-1590674899484-d5640e854abe?auto=format&fit=crop&w=1200&q=80",
+      "created_at": "2026-09-20T06:24:51.539Z"
+    }
+  ],
+  "parking_slots": [
+    {
+      "id": "slot_hitech_f1_1",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-01",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_2",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-02",
+      "type": "4W",
+      "floor": 1,
+      "is_available": false,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_3",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-03",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_4",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-04",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_5",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-05",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_6",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-06",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_7",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-07",
+      "type": "4W",
+      "floor": 1,
+      "is_available": false,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_8",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-08",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_9",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-09",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_10",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-10",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_11",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-11",
+      "type": "2W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_12",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-12",
+      "type": "2W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_13",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-13",
+      "type": "2W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_14",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-14",
+      "type": "EV",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f1_15",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "A-15",
+      "type": "EV",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_1",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-01",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_2",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-02",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_3",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-03",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_4",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-04",
+      "type": "4W",
+      "floor": 2,
+      "is_available": false,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_5",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-05",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_6",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-06",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_7",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-07",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_8",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-08",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_9",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-09",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_10",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-10",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_11",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-11",
+      "type": "2W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_12",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-12",
+      "type": "2W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_13",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-13",
+      "type": "2W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_14",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-14",
+      "type": "EV",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_hitech_f2_15",
+      "lot_id": "lot_hitech_01",
+      "slot_number": "B-15",
+      "type": "EV",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_1",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-01",
+      "type": "4W",
+      "floor": 1,
+      "is_available": false,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_2",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-02",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_3",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-03",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_4",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-04",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_5",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-05",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_6",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-06",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_7",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-07",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_8",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-08",
+      "type": "4W",
+      "floor": 1,
+      "is_available": false,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_9",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-09",
+      "type": "4W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_10",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-10",
+      "type": "2W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_11",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-11",
+      "type": "2W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_12",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-12",
+      "type": "2W",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_13",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-13",
+      "type": "EV",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_14",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-14",
+      "type": "EV",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f1_15",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "C-15",
+      "type": "EV",
+      "floor": 1,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_1",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-01",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_2",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-02",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_3",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-03",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_4",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-04",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_5",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-05",
+      "type": "4W",
+      "floor": 2,
+      "is_available": false,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_6",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-06",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_7",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-07",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_8",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-08",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_9",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-09",
+      "type": "4W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_10",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-10",
+      "type": "2W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_11",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-11",
+      "type": "2W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_12",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-12",
+      "type": "2W",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_13",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-13",
+      "type": "EV",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_14",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-14",
+      "type": "EV",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    },
+    {
+      "id": "slot_gachi_f2_15",
+      "lot_id": "lot_gachibowli_02",
+      "slot_number": "D-15",
+      "type": "EV",
+      "floor": 2,
+      "is_available": true,
+      "is_locked_until": null,
+      "locked_by": null
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_sample_01",
+      "user_id": "usr_kavya_01",
+      "lot_id": "lot_hitech_01",
+      "slot_id": "slot_hitech_f1_2",
+      "vehicle_number": "TS 09 EA 4521",
+      "entry_time": "2026-10-10T04:24:51.539Z",
+      "exit_time": "2026-10-10T08:24:51.539Z",
+      "status": "checked_in",
+      "total_price": 160,
+      "qr_code": "PARKEASE-BK-SAMPLE01-TS09EA4521",
+      "created_at": "2026-10-10T03:54:51.539Z"
+    },
+    {
+      "id": "bk_sample_02",
+      "user_id": "usr_kavya_01",
+      "lot_id": "lot_hitech_01",
+      "slot_id": "slot_hitech_f1_7",
+      "vehicle_number": "TS 08 AB 9898",
+      "entry_time": "2026-10-10T07:24:51.539Z",
+      "exit_time": "2026-10-10T10:24:51.539Z",
+      "status": "booked",
+      "total_price": 120,
+      "qr_code": "PARKEASE-BK-SAMPLE02-TS08AB9898",
+      "created_at": "2026-10-10T05:54:51.539Z"
+    },
+    {
+      "id": "bk_sample_03",
+      "user_id": "usr_kavya_01",
+      "lot_id": "lot_gachibowli_02",
+      "slot_id": "slot_gachi_f1_1",
+      "vehicle_number": "AP 28 BC 1234",
+      "entry_time": "2026-10-09T06:24:51.539Z",
+      "exit_time": "2026-10-09T08:24:51.539Z",
+      "status": "completed",
+      "total_price": 100,
+      "qr_code": "PARKEASE-BK-SAMPLE03-AP28BC1234",
+      "created_at": "2026-10-09T05:24:51.539Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_01",
+      "booking_id": "bk_sample_01",
+      "amount": 160,
+      "status": "success",
+      "transaction_ref": "pay_rzp_mock_94821",
+      "payment_method": "razorpay_upi",
+      "created_at": "2026-10-10T03:54:51.539Z"
+    },
+    {
+      "id": "pay_02",
+      "booking_id": "bk_sample_02",
+      "amount": 120,
+      "status": "success",
+      "transaction_ref": "pay_rzp_mock_94822",
+      "payment_method": "razorpay_card",
+      "created_at": "2026-10-10T05:54:51.539Z"
+    },
+    {
+      "id": "pay_03",
+      "booking_id": "bk_sample_03",
+      "amount": 100,
+      "status": "success",
+      "transaction_ref": "pay_rzp_mock_94800",
+      "payment_method": "razorpay_upi",
+      "created_at": "2026-10-09T05:24:51.539Z"
+    }
+  ]
+}
